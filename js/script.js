@@ -9,6 +9,9 @@ for (let i = 1; i <= 100; i++){
     else if(i % 3 == 0 ){
         console.log( `Fizz`)
     }
+    // Se è  multiplo di 5  allora stampa "Buzz"
+    else if(i % 5 == 0){
+        console.log( `Buzz`)
+    }
     
 }
-
