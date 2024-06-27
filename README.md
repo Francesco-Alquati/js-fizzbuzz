@@ -17,7 +17,7 @@ Buon lavoro e buon divertimento! :faccia_leggermente_sorridente:
 
 1 - Creo un ciclo for nel quale costruisco un iterazione per una variabile contatore
 1.1 - Dichiaro la variabile contatore e le assegno un valore (let i = 1)
-1.2 - Applico alla variabile contatore una condizione di fine ciclo (1 < 100)
+1.2 - Applico alla variabile contatore una condizione di fine ciclo (1 <= 100)
 1.3 - Applico un incremento di un'unità alla variabile contatore (i++)
 2 - Creo una condizione if nel for per vedere se il numero che sto iterando è multiplo di 3 e di 5
 2.1 - Se la condizione risulta vera allora faccio stampare in console la parola FizzBuzz invece del numero
