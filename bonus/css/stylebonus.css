@@ -21,8 +21,8 @@ h1{
     margin: 50px auto;
 }
 .square{
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,21 +30,19 @@ h1{
 }
 .bg-blue{
     background-color: #1289B2;
-    border: 1px solid black;
+    border-radius: 50%;
     margin: 5px 5px;
 }
 .bg-yellow{
     background-color: #FFD166;
-    border: 1px solid black;
     margin: 5px 5px;
 }
 .bg-green{
     background-color: #08D6A0;
-    border: 1px solid black;
+    border-radius: 50px 1px 50px 1px;
     margin: 5px 5px;
 }
 .bg-red{
     background-color: #F0466F;
-    border: 1px solid black;
     margin: 5px 5px;
 }
