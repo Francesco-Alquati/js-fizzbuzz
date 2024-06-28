@@ -1,12 +1,8 @@
-// Recupero la lista dal DOM
-// const list = document.getElementById('list');
+// Recupero la board dal DOM
 const board = document.querySelector('.board');
 
 // Creo un ciclo for nel quale costruisco un iterazione per una variabile contatore
 for (let i = 1; i <= 100; i++){
-
-    // let list_item = document.createElement('li');
-    // list_item.innerText = `${i}`;
 
     const square = document.createElement('div');
     square.classList.add('square');
@@ -32,5 +28,4 @@ for (let i = 1; i <= 100; i++){
         square.classList.add('bg-blue');
     }
     board.append(square);
-    // list.append(list_item);
 }
